@@ -13,13 +13,13 @@ The methodology employed in this analysis utilizes the R programming language an
 ### **RESULT AND DISCUSSION**
 **A. Differential Gene Expression Analysis**
 
-<img src="task-3/Volcano_Plot.png" alt="Volcano Plot" style="width:75%; height:auto;">
+![Volcano Plot](task-3/Volcano_Plot.png)
 Based on the linear modeling of the dataset, the analysis identified a robust set of genes that are significantly altered in KD patients. Upregulated genes, such as H2AC20 (H2A Clustered Histone 20), H2AJ (H2A.J Histone), and LCN2 (Lipocalin 2), represent the dominant signature of the disease, indicating a massive mobilization of the innate immune response. Conversely, downregulated genes, which include markers like CCR7 and TCF7, often suggest a shift in the T-cell population or a temporary suppression of adaptive immunity during the acute febrile state. The Volcano Plot visually captures this divergence, with the most significant genes appearing at the top left and right extremes.
 
 
 **B. Top 50 Differentially Expressed Genes (DEGs)**
 
-<img src="task-3/Heatmap.png" alt="Heat Map" style="width:75%; height:auto;">
+![Volcano Plot](task-3/Heatmap.png)
 The 50 Differentially Expressed Genes (DEGs) identified serve as the core molecular "fingerprint" of the disease. These top-tier genes exhibit a consistent and sharp contrast in expression levels between groups. When visualized via a heatmap, these genes exhibit clear clustering: the "sick" group displays a highly uniform block of intense activity for inflammatory and cell-cycle related markers, whereas the healthy group maintains a stable, baseline expression. This high degree of separation confirms that these genes are highly reliable candidates for molecular diagnostics.
 
 **C. Gene Ontology and KEGG Pathway**
